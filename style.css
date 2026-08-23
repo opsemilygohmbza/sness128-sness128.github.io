@@ -45,6 +45,10 @@ td {
     text-align:center;
     color: aqua;
 }
+.gastersub {
+    text-align: center;
+    color: green;
+}
 .friendlogo {
     text-align:center;
     color: yellow;
@@ -52,6 +56,9 @@ td {
 .friendsub {
     text-align:center;
     color: pink;
+}
+.gasterback {
+    background-image: url('images/IMAGE_DEPTH_BG.png');
 }
 .header {
     
@@ -72,7 +79,10 @@ table {
     border: 3px solid #0060df;
     
 }
-
+.remember {
+    max-width: 300px;
+    max-height: 300px;
+}
 .imagebut {
     width: 347px;
     height: 260px;
