@@ -41,6 +41,10 @@ td {
     text-align:justify;
     color:aqua
 }
+.normal {
+    text-align:center;
+    color: aqua;
+}
 .friendlogo {
     text-align:center;
     color: yellow;
