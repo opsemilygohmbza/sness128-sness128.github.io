@@ -37,6 +37,10 @@ td {
     text-align:center;
     color: #0060df
 }
+.about {
+    text-align:justify;
+    color:aqua
+}
 .header {
     
     background-color:#0060df;

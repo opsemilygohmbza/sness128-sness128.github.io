@@ -1,0 +1,142 @@
+body {
+    /*background: radial-gradient(ellipse, #04021b 1%, #050505 90%, #04021b);*/
+   background-color: #000000;
+   color: limegreen;
+   font-family: 'Andale Mono', monospace;
+   height: 100%;
+   display: block;
+   margin: 8px;
+   
+}
+p {
+    color: limegreen;
+}
+div {
+    display: block;
+}
+.main {
+    margin: 32px;
+    width: 756px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: auto;
+}
+td {
+    border: 2px solid #0060df;
+    padding: 10px;
+    text-align: justify;
+    display: table-cell;
+    vertical-align: inherit;
+}
+.logo {
+    text-align:center;
+    color: limegreen;
+    opacity: 0.9;
+}
+.sublogo {
+    text-align:center;
+    color: #0060df
+}
+.header {
+    
+    background-color:#0060df;
+    padding: 3px 2px 3px 8px;
+    color: #000000;
+    position: relative;
+    width: 746px;
+    text-align: left;
+    z-index: 2;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 3px;
+    border: 3px solid #0060df;
+    
+}
+
+.imagebut {
+    width: 347px;
+    height: 260px;
+    border: 1px solid transparent;
+    filter: brightness(80%) grayscale(100%) saturate(300%) contrast(2.0) blur(15px);
+    -webkit-filter: brightness(80%) grayscale(100%) saturate(300%) contrast(2.0) blur(15px);
+    transition: 0.3s;
+    -webkit-transition: 0.3s
+}
+.imagebut:hover{
+    border: 1px solid transparent;
+    filter: brightness(100%) grayscale(0%) saturate(100%) contrast(1);
+    -webkit-filter: brightness(100%) grayscale(0%) saturate(100%) contrast(1);
+    transition: 0.3s;
+    -webkit-transition: 0.3s
+}
+.moviebut {
+    height: 341px;
+    width: 237px;
+    border: 1px solid transparent;
+    filter: brightness(80%) grayscale(100%) saturate(300%) contrast(2.0);
+    -webkit-filter: brightness(80%) grayscale(100%) saturate(300%) contrast(2.0);
+    transition: 0.3s;
+    -webkit-transition: 0.3s
+}
+.moviebut:hover{
+    border: 1px solid transparent;
+    filter: brightness(100%) grayscale(0%) saturate(100%) contrast(1);
+    -webkit-filter: brightness(100%) grayscale(0%) saturate(100%) contrast(1);
+    transition: 0.3s;
+    -webkit-transition: 0.3s
+}
+.topnav {
+    background-color: #000000ce;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgba(0, 119, 216, 0.61);
+    color: black;
+}
+.topnav a.active {
+    background-color: #0060df;
+    color:white;
+}
+.movie {
+    text-align: center;
+}
+.movietable b {
+    color: #9100d4;
+}
+.rainbow-text {
+    background-image: linear-gradient(-225deg, #ff0000 0%,#ff9900 20%,#ffef13 40%,#00ff15 60%, #1100ff 80%, #ae00ff 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #ffffff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: auto;
+}
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.slight-break {
+    height: 30px;
+}
