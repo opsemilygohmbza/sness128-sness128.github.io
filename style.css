@@ -41,6 +41,14 @@ td {
     text-align:justify;
     color:aqua
 }
+.friendlogo {
+    text-align:center;
+    color: yellow;
+}
+.friendsub {
+    text-align:center;
+    color: pink;
+}
 .header {
     
     background-color:#0060df;
