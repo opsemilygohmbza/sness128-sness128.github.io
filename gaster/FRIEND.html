@@ -5,8 +5,9 @@
     <link rel="icon" type="image/x-icon" href="../images/FRIEND.png">
 </head>
 <main>
-    <audio id="gaster" src="audio/gaster.mp3" preload="auto"></audio>
-    <body>
+    <audio id="gaster" src="../audio/gaster.mp3" preload="auto"></audio>
+    <audio id="friendlaugh" src="../audio/friendlaugh.mp3" preload="auto"></audio>
+    <body id="friendback">
         <div class="main">
             <div class="friendlogo">
                 <h1>FRIEND</h1> 
@@ -16,7 +17,15 @@
             </div>
             
             <div>
-                <img src="../images/FRIEND.png" style="max-width: 50px;"/>
+                <button onclick="activateBackground(); document.getElementById('friendlaugh').play()" style="background: none; border: none">
+                    <img src="../images/FRIEND.png" style="max-width: 50px;"/>
+                </button>
+                <script>
+                    function activateBackground() {
+                        const element = document.getElementById('friendback');
+                        friendback.style.backgroundImage =  "url('../images/FRIEND.png')";
+                    }
+                </script>
                 <img src="../images/FRIEND_LAUGH.gif" style="max-width: 100px;"/>
                 <img src="../images/FRIEND_VISION.gif" style="max-width: 100px;"/>
                 <img src="../images/FRIEND_APPEAR.gif" style="max-width: 50px;"/>
