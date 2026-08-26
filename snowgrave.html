@@ -34,12 +34,13 @@
                 let snowgraved = false;
                 let snowgraving = false;
                 let snowCount = 0;
+                const sound = new Audio('audio/snowgrave.mp3');
                 async function activateSnowgrave() {
                     if (!snowgraved) {
                         snowgraved = true;
                         snowgraving = true;
                         const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms)); 
-                        const sound = new Audio('audio/snowgrave.mp3');
+                        
                         sound.play();
                         document.getElementById("noelle").src = "images/snowgrave/Noelle_snowgrave.gif";
                         await sleep(1000);
