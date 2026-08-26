@@ -41,8 +41,9 @@
                         snowgraved = true;
                         snowgraving = true;
                         const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms)); 
+                        sound.currentTime = 0;
+                        sound.play().catch(err => console.error("snowgrave error"));
                         
-                        sound.play();
                         document.getElementById("noelle").src = "images/snowgrave/Noelle_snowgrave.gif";
                         await sleep(1000);
                         document.getElementById("berdley").src = "images/snowgrave/Berdley_hurt.png";
@@ -71,8 +72,8 @@
                     
                 }
                 function playJingle() {
-
-                    jingle.play();
+                    jingle.currentTime = 0;
+                    jingle.play().catch(err => console.error("jingle error"));
                 }
             </script>
         
